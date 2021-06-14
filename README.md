@@ -81,7 +81,7 @@ chmod +x run.sh
 2. Then you need to start the script with
 
 ```shell
-./run.sh &  
+./run.sh & exit
 ```
 
 ### Stopping
