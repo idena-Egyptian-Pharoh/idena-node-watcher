@@ -10,12 +10,12 @@
         "connect_timeout": 30
     },
     "webhook": {
-        "use_webhook": false,
+        "use_webhook": true,
         "listen": "0.0.0.0",
         "port": 8443,
         "privkey_path": "/path/to/privkey.pem",
         "cert_path": "/path/to/cert.pem",
-        "url": "https://somedomain.com"
+        "url": "https://idena-watcher.herokuapp.com/"
     },
     "notify": {
         "email": {
@@ -29,7 +29,7 @@
         }
     },
     "web": {
-        "use_web": false,
-        "password": "<password>"
+        "use_web": true,
+        "password": "<Elkhabery@3207Aa>"
     }
 }
